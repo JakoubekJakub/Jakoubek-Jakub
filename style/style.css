@@ -1,0 +1,29 @@
+table, td {
+  padding: 1px;
+  border:1px solid green;
+}
+body {
+background-color:grey;
+}
+
+.cervenabarva{
+    color:red;
+}
+
+#zelena{
+    color:green;
+   
+}
+.adamovabarva{
+    background-color:pink
+}
+.img {
+    width:250px;
+    height:250px;
+}
+div div div div h3{
+    color:blue;
+}
+body div p{
+    color:red;
+}
