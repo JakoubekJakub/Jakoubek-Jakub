@@ -11,7 +11,7 @@ echo "škola";
 echo"<br>";
 print(FALSE);
 echo " ahoj "." čus ";
-echo "<img src\"koronavirus.jpg.jpg\">";
+echo "<img src=\"koronavirus.jpg.jpg\">";
 echo "\\";
 $a = 9;
             echo "<br>";
