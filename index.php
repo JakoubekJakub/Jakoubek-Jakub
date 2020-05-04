@@ -1,9 +1,10 @@
-
-
-
-
-        <?php
-        echo 17;
+<?php
+require 'tracy/tracy.phar';
+use Tracy\Debugger;
+Debugger::enable();
+Debugger::$strictMode = true;
+        
+echo 17;
 echo"<br>";
 print (2.2);
 echo"<br>";
@@ -19,7 +20,7 @@ $a = 9;
 
             echo "<br>";
 
-            var_dump ($a + $b);
+            dump ($a + $b);
 
             echo "<br>";
 
@@ -27,7 +28,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-           var_dump ($a - $b);
+           dump ($a - $b);
 
             echo "<br>";
 
@@ -35,7 +36,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a * $b);
+            dump ($a * $b);
 
             echo "<br>";
 
@@ -51,7 +52,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a += $b);
+          dump ($a += $b);
 
             echo "<br>";
 
@@ -59,7 +60,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a -= $b);
+            dump ($a -= $b);
 
             echo "<br>";
 
@@ -67,7 +68,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a *= $b);
+           dump ($a *= $b);
 
             echo "<br>";
 
@@ -75,7 +76,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a /= $b);
+            dump ($a /= $b);
 
             echo "<br>";
 
@@ -83,7 +84,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a == $b);
+            dump ($a == $b);
 
             echo "<br>";
 
@@ -91,7 +92,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a != $b);
+            dump ($a != $b);
 
             echo "<br>";
 
@@ -99,7 +100,7 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a > $b);
+           dump ($a > $b);
 
             echo "<br>";
 
@@ -107,21 +108,21 @@ $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a < $b);
+            dump ($a < $b);
 
             echo "<br>";
             $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a || $b);
+            dump ($a || $b);
 
             echo "<br>";
             $a = 9;
             echo"<br>";
             $b = 4;
 
-            var_dump ($a & $b);
+            dump ($a & $b);
 
             
         $jakubJakoubek1 = 1;
@@ -173,13 +174,13 @@ $a = 9;
     array('jméno' => 'Jarda', 'pohlaví' => 'M', 'druh' => 'pes', 'rasa' => 'zlatý retrívr', 'věk' => 10),
     array('jméno' => 'Alex', 'pohlaví' => 'M', 'druh' => 'pes', 'rasa' => 'dalmatýn', 'věk' => 1,5),
       );
-var_dump($produkty);     
- var_dump($produkty1); 
+dump($produkty);     
+ dump($produkty1); 
  
  
          
-             
- 
-         
+       
+
+      
   ?>
   
