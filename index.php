@@ -128,18 +128,18 @@ $a = 9;
         $jakubJakoubek1 = 1;
         $jakubJakoubek2 = 1;
         if($jakubJakoubek1 <=  $jakubJakoubek2){
-               echo "Jakub Jakoubek";
+               echo "Jakub Jakoubek <br>";
         }
         if($jakubJakoubek1 > $jakubJakoubek2){
-               echo"Kuba";
+               echo"Kuba <br>";
         }
         else{
-            echo"Jakoubek";
+            echo"Jakoubek <br>";
         }
         if ($jakubJakoubek1 > $jakubJakoubek2){
-            echo"Kuba";
+            echo"Kuba <br>";
             if($jakubJakoubek1 == $jakubJakoubek2){
-                echo"Jakoubek";    
+                echo"Jakoubek <br>";    
            }
         }
         switch ($jakubJakoubek1) {
