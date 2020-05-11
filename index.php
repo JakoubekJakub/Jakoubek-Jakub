@@ -178,9 +178,42 @@ dump($produkty);
  dump($produkty1); 
  
  
-         
-       
+         $radekJakubJakoubek=12; 
+$sloupecJakubJakoubek=17; 
+            echo "<table border=1>";
+            for($i=1;$i<=$radekJakubJakoubek;$i++) {
+                echo "<tr>";
+for($x=1;$x<=$sloupecJakubJakoubek;$x++){
+    echo "<td>".$i."-".$x."</td>";
+}
+                echo "</tr>";
+            }
+            echo "</table><br><br><br>";
 
+           echo abs(7)."<br>";
+            echo cos(149)."<br>";
+           $string="Dobrý den";
+          echo strstr($string, "its")."<br>";
+          echo strpos($string, "its")."<br>";
+          echo sizeof($produkty);
+          array_splice($produkty, 0, 1, "oi1"); 
+          dump($produkty);
+
+          $i=1;
+          foreach ($produkty as $produkt){
+              echo $i."-".$produkt."<br>";
+              $i++;
+          }
+            echo currency(48.200);
+
+            function currency($price, $currency = "CZK", $precision = 2) {
+                $price = round($price, $precision);
+                $price = number_format($price, $precision) . ",-" . $currency;
+
+                return $price;
+                  
+       
+}
       
   ?>
   
